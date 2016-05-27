@@ -8,5 +8,6 @@ config = {
     }
 }
 
-from .lookupMaven import run
+from .program import run
 from .test import test
+

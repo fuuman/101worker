@@ -9,6 +9,7 @@ def import_module(module_name):
 
 modules = [
     'pull',
+    'lookupMaven',
     'matchLanguage',
     'extractFacts',
     'dumpMongoDBToJson',
