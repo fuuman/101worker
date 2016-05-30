@@ -47,13 +47,84 @@ HTTP GET to `http://search.maven.org/solrsearch/select?q=fc:MODULE_SEARCHED&rows
 ```bash
 MODULE_SEARCHED 	- String containing the imported module name (e.g. "Java.io")
 NUMBER_OF_RESULTS 	- Integer
-FORMAT			- Output format ( XML | JSON )
+FORMAT				- Output format ( XML | JSON )
 ```
 
 ### What response did we get?
 Sample response:
 ```json
-{"responseHeader":{"status":0,"QTime":73,"params":{"fl":"id,g,a,v,p,ec,timestamp,tags","sort":"score desc,timestamp desc,g asc,a asc,v desc","hl.snippets":"3","indent":"off","q":"fc:java.awt.color","hl.fl":"fch","wt":"json","hl":"true","rows":"2","version":"2.2"}},"response":{"numFound":22,"start":0,"docs":[{"id":"com.dragome:dragome-js-jre:0.96-beta2","g":"com.dragome","a":"dragome-js-jre","v":"0.96-beta2","p":"jar","timestamp":1434753379000,"tags":["module","dragome"],"ec":["-sources.jar","-javadoc.jar",".jar",".pom"]},{"id":"com.dragome:dragome-js-jre:0.95.5-beta1","g":"com.dragome","a":"dragome-js-jre","v":"0.95.5-beta1","p":"jar","timestamp":1423106297000,"tags":["module","dragome"],"ec":["-sources.jar","-javadoc.jar",".jar",".pom"]}]},"highlighting":{"com.dragome:dragome-js-jre:0.96-beta2":{"fch":["<em>java<\/em>.<em>awt<\/em>.<em>Color<\/em>"]},"com.dragome:dragome-js-jre:0.95.5-beta1":{"fch":["<em>java<\/em>.<em>awt<\/em>.<em>Color<\/em>"]}}}
+{
+    "responseHeader": {
+        "status": 0,
+        "QTime": 73,
+        "params": {
+            "fl": "id,g,a,v,p,ec,timestamp,tags",
+            "sort": "score desc,timestamp desc,g asc,a asc,v desc",
+            "hl.snippets": "3",
+            "indent": "off",
+            "q": "fc:java.awt.color",
+            "hl.fl": "fch",
+            "wt": "json",
+            "hl": "true",
+            "rows": "2",
+            "version": "2.2"
+        }
+    },
+    "response": {
+        "numFound": 22,
+        "start": 0,
+        "docs": [
+            {
+                "id": "com.dragome:dragome-js-jre:0.96-beta2",
+                "g": "com.dragome",
+                "a": "dragome-js-jre",
+                "v": "0.96-beta2",
+                "p": "jar",
+                "timestamp": 1434753379000,
+                "tags": [
+                    "module",
+                    "dragome"
+                ],
+                "ec": [
+                    "-sources.jar",
+                    "-javadoc.jar",
+                    ".jar",
+                    ".pom"
+                ]
+            },
+            {
+                "id": "com.dragome:dragome-js-jre:0.95.5-beta1",
+                "g": "com.dragome",
+                "a": "dragome-js-jre",
+                "v": "0.95.5-beta1",
+                "p": "jar",
+                "timestamp": 1423106297000,
+                "tags": [
+                    "module",
+                    "dragome"
+                ],
+                "ec": [
+                    "-sources.jar",
+                    "-javadoc.jar",
+                    ".jar",
+                    ".pom"
+                ]
+            }
+        ]
+    },
+    "highlighting": {
+        "com.dragome:dragome-js-jre:0.96-beta2": {
+            "fch": [
+                "<em>java</em>.<em>awt</em>.<em>Color</em>"
+            ]
+        },
+        "com.dragome:dragome-js-jre:0.95.5-beta1": {
+            "fch": [
+                "<em>java</em>.<em>awt</em>.<em>Color</em>"
+            ]
+        }
+    }
+}
 ```
 We just need the ID of the repository. The URL will be derived from the ID. 
 
