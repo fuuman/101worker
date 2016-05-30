@@ -1,3 +1,9 @@
+"""
+Implementation of the MavenApi Class. 
+
+Developer:
+"""
+
 import urllib.request
 import json
 
@@ -11,7 +17,7 @@ class MavenApi(object):
     """
     URL = 'https://search.maven.org/solrsearch/select?'
     REPO = 'http://mvnrepository.com/artifact/'
-    LIMIT = 5
+    LIMIT = 1
     RETURN_FORMAT = 'json'
  
     def __init__(self, search_for, limit=None, return_format=None):
