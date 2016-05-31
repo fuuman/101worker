@@ -51,7 +51,7 @@ FORMAT				- Output format ( XML | JSON )
 ```
 
 ### What response did we get?
-Sample response:
+Sample API response:
 ```json
 {
     "responseHeader": {
@@ -127,6 +127,18 @@ Sample response:
 }
 ```
 We just need the ID of the repository. The URL will be derived from the ID. 
+
+So a sample output for our derived resource `.maven.json` would look like:
+
+```json
+{
+    "org.softlang.company.features.recognizer": {},
+    "java.io": {
+        "URL": "http://mvnrepository.com/artifact/org.apache.flink/flink-jdbc/1.0.3-hadoop1",
+        "ID": "org.apache.flink:flink-jdbc:1.0.3-hadoop1"
+    }
+}
+```
 
 ## Developers
 - Marco Schanz
