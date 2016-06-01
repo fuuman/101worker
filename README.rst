@@ -1,6 +1,7 @@
 .. image:: http://userpages.uni-koblenz.de/~mschanz/lookupMaven.png
-   align: center
-   alt: lookupMaven
+   :align: center
+   :target: https://github.com/fuuman/101worker/tree/master/modules/lookupMaven
+   :alt: lookupMaven Logo
 
 lookupMaven
 ===========
