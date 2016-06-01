@@ -1,4 +1,6 @@
-.. image::http://userpages.uni-koblenz.de/~mschanz/lookupMaven.png
+.. image:: http://userpages.uni-koblenz.de/~mschanz/lookupMaven.png
+   align: center
+   alt: lookupMaven
 
 lookupMaven
 ===========
