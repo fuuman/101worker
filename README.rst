@@ -64,9 +64,10 @@ Not implemented. We tested our module manually.
 For that we configure seperate Java contributions in our 101worker config. 
 
 Tested Contributions:
-- contributions/javaParser
-- contributions/javaTree
-- contributions/javaRmi
+- `contributions/javaParser`_
+- `contributions/javaTree`_
+- `contributions/javaRmi`_
+
 
 For example:
 
