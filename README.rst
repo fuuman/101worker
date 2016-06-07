@@ -11,8 +11,8 @@ Structure
 
 The module was splitted into five single python files.
 
-**init.py**
-~~~~~~~~~~~
+init.py
+~~~~~~~
 
 This file will be called by the ``run_module`` binary. It has to contain
 a ``config`` dictionary and the methods ``run(context, c)`` and
@@ -27,7 +27,10 @@ implemented. It gets the needed resource ``.extractor.json``, run the
 actual logic of the module and write a new derived resource
 ``.maven.json``
 
-//TODO: describe logic more in details
+First we save us the filepath and programming language from the ``context`` and ``c`` in local variables.
+Then we only continue, if the observed file is written in Java.
+
+If yes, we read the imported modules from the ``extractor`` resource and iterate over that array. For each imported module we contact the ``MavenApi`` and append the requested result to out new JSON object ``maven_resource``. If we are finished, we write our JSON object into a new resource, the ``.maven.json``.
 
 maven.py
 ~~~~~~~~
@@ -57,7 +60,33 @@ Some little help methods used in ``run(context, c)``.
 test.py
 ~~~~~~~
 
-Not implemented yet.
+Not implemented. We tested our module manually. 
+For that we configure seperate Java contributions in our 101worker config. 
+Tested Contributions:
+.. code:: bash
+    contributions/javaParser
+	contributions/javaTree
+	contributions/javaRmi
+
+For example:
+
+In the ``.extractor.json`` resource our module found the import-array
+.. code:: json
+	{import: ["org.softlang.company.features.recognizer", "java.io"]}
+
+Due to that input our module write the following derived resource ``.maven.json``:
+
+.. code:: json
+    {
+        "org.softlang.company.features.recognizer": {},
+        "java.io": {
+            "URL": "http://mvnrepository.com/artifact/org.apache.flink/flink-jdbc/1.0.3-hadoop1",
+            "ID": "org.apache.flink:flink-jdbc:1.0.3-hadoop1"
+        }
+    }
+
+The first import is a self-writen module by the author of that repository. So there is no ID/URL on Maven for that. For ``Java.io`` we get a senseful response of course.
+
 
 Maven API
 ---------
@@ -77,7 +106,6 @@ HTTP GET to
 ``http://search.maven.org/solrsearch/select?q=fc:MODULE_SEARCHED&rows=NUMBER_OF_RESULTS&wt=FORMAT``
 
 .. code:: bash
-
     MODULE_SEARCHED     - String containing the imported module name (e.g. "Java.io")
     NUMBER_OF_RESULTS   - Integer
     FORMAT              - Output format ( XML | JSON )
@@ -163,20 +191,8 @@ Sample API response:
     }
 
 We just need the ID of the repository. The URL will be derived from the
-ID.
+ID. For a sample output read the testing part please.
 
-So a sample output for our derived resource ``.maven.json`` would look
-like:
-
-.. code:: json
-
-    {
-        "org.softlang.company.features.recognizer": {},
-        "java.io": {
-            "URL": "http://mvnrepository.com/artifact/org.apache.flink/flink-jdbc/1.0.3-hadoop1",
-            "ID": "org.apache.flink:flink-jdbc:1.0.3-hadoop1"
-        }
-    }
 
 Developers
 ----------
