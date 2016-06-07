@@ -73,7 +73,9 @@ Tested Contributions:
 For example:
 
 In the ``.extractor.json`` resource our module found the import-array
+
 .. code:: json
+
 	{
 		import: [
 			"org.softlang.company.features.recognizer", 
@@ -84,6 +86,7 @@ In the ``.extractor.json`` resource our module found the import-array
 Due to that input our module write the following derived resource ``.maven.json``:
 
 .. code:: json
+
     {
         "org.softlang.company.features.recognizer": {},
         "java.io": {
