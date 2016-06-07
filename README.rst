@@ -76,12 +76,12 @@ In the ``.extractor.json`` resource our module found the import-array
 
 .. code:: json
 
-	{
-		import: [
-			"org.softlang.company.features.recognizer", 
-			"java.io"
-			]
-	}
+    {
+        "import": [
+	    "org.softlang.company.features.recognizer", 
+	    "java.io"
+	]
+    }
 
 Due to that input our module write the following derived resource ``.maven.json``:
 
