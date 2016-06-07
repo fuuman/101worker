@@ -30,7 +30,7 @@ actual logic of the module and write a new derived resource
 First we save us the filepath and programming language from the ``context`` and ``c`` in local variables.
 Then we only continue, if the observed file is written in Java.
 
-If yes, we read the imported modules from the ``extractor`` resource and iterate over that array. For each imported module we contact the ``MavenApi`` and append the requested result to out new JSON object ``maven_resource``. If we are finished, we write our JSON object into a new resource, the ``.maven.json``.
+If yes, we read the imported modules from the ``extractor`` resource and iterate over that array. For each imported module we contact the ``MavenApi`` and append the requested result to our new JSON object. If we are finished, we write our JSON object into a new resource, the ``.maven.json``.
 
 maven.py
 ~~~~~~~~
@@ -62,9 +62,9 @@ test.py
 
 Not implemented. We tested our module manually. 
 For that we configure seperate Java contributions in our 101worker config. 
-Tested Contributions:
-.. code:: bash
-    contributions/javaParser
+
+:Tested Contributions:
+	contributions/javaParser
 	contributions/javaTree
 	contributions/javaRmi
 
@@ -102,7 +102,7 @@ How to request?
 We've used the URL for searching by fully-qualified classname in
 Advanced Search.
 
-HTTP GET to
+Just send a HTTP-GET request to
 ``http://search.maven.org/solrsearch/select?q=fc:MODULE_SEARCHED&rows=NUMBER_OF_RESULTS&wt=FORMAT``
 
 .. code:: bash
@@ -191,7 +191,7 @@ Sample API response:
     }
 
 We just need the ID of the repository. The URL will be derived from the
-ID. For a sample output read the testing part please.
+ID. For a sample output of ``lookupMaven`` read the testing section please.
 
 
 Developers
