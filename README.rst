@@ -6,7 +6,6 @@
 
 ---------
 
-
 This new module was created to automatically find the Maven IDs/URLs
 which are corresponding to Java imports in 101repos.
 
