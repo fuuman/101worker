@@ -1,7 +1,7 @@
 """
 Implementation of the MavenApi Class. 
 
-Developer:
+Developer: Marius & Marco
 """
 
 import urllib.request

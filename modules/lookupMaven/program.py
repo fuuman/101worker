@@ -1,3 +1,5 @@
+# Developer: Marco
+
 import json
 from .helper import find_url_for_id, contact_maven
 

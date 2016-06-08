@@ -1,3 +1,5 @@
+# Developer: Frank, Isabelle und Diana
+
 config = {
     'wantdiff': False,
     'wantsfiles': True,

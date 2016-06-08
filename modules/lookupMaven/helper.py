@@ -1,7 +1,7 @@
 """
 Module with help methods.
 
-Developer:
+Developer: André & Marius
 """
 from .maven import MavenApi
 
