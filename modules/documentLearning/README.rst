@@ -5,9 +5,7 @@
 
 Usage
 -----
-Die Jsondateien müssen in den Projektordner eingefügt werden sowie die wiki-content.json
-Der z Wert innerhalb der Datein jsonExtractor.py muss angepasst werden, sodass er auch wirklich nur json Dateien innerhalb des Ordners einliest.
-Der eigentlich Aufruf befindet sich in NatLan.py ganz unten.
+Wie gewohnt kann das Modul einfach im 101worker über ``bin/run_module documentLearning`` gestartet werden. Die Ausgabe ist anschließend in der Konsole zu sehen. Wie diese Ausgabe zu verstehen ist, ist unter "Interpretation of the result" zu lesen.
 
 External Code
 -------------
