@@ -1,7 +1,7 @@
 .. image:: http://userpages.uni-koblenz.de/~mschanz/documentLearning.jpg
    :align: center
-   :target: https://github.com/fuuman/101worker/tree/master/modules/lookupMaven
-   :alt: lookupMaven Logo
+   :target: https://github.com/fuuman/101worker/tree/master/modules/documentLearning
+   :alt: documentLearning Logo
 
 
 zu Usage:
