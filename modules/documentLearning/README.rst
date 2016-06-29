@@ -9,7 +9,7 @@ Wie gewohnt kann das Modul einfach im 101worker über ``bin/run_module documentL
 
 External Code
 -------------
-We took the Naive Bayes algorithm from the NLTK.
+We took the Naive Bayes algorithm from the ``NLTK``.
 For more information, visit http://www.nltk.org/ , or more specifically http://www.nltk.org/api/nltk.classify.html?highlight=naive%20bayes#module-nltk.classify.naivebayes
 
 Our module
@@ -23,7 +23,7 @@ A missing section means that prediction suggests that a section should be there 
 
 Interpretation of the result 
 ----------------------------
-Wir haben aus den Json-Dateien die Namespaces und ihre jeweiligen Sections extrahiert. Danach haben wir anhand der Daten ein Prediction Model mit machine learning erstellt.
+Wir haben aus den Json-Dateien die Namespaces und ihre jeweiligen Sections extrahiert. Danach haben wir anhand der Daten ein Prediction Model mit ``machine learning`` erstellt.
 Uns fehlt dabei jedoch der Übergang, zu testen und damit missing und unexspected in jeweilige json Dateien einzutragen.
 Wir wollten mit dem Prediction Model die jeweiligen sections der namespaces vergleichen und wenn ein neues erkannt wird, ist es unexpected und wenn eines fehlt, dann ist es missing.
 Bei den ausgegebenen Dictionaries wurde jeder Section eines Namespaces eine bestimmte approximierte Wahrscheinlichkeit über den Bayes Algorithmus zugewiesen.
