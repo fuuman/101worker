@@ -1,0 +1,25 @@
+ [
+	{
+        "sections": {
+            "Headline": [
+                {
+                    "content": "\n\nThe Linked Data access point of the 101project\n",
+                    "classifier": "text"
+                }
+            ],
+            "Description": [
+                {
+                    "content": "\n\nVarious data is synthesized from the 101repo and the 101wiki. All such data is provide online through 101data, more specifically through the following link:\n\nhttp://data.101companies.org\n\nThe synthesis of all such data is coordinated by the 101worker which executes various 101modules. The data may be conveniently explored (discovered) with the 101explorer. The data is organized in a way that applies Linked Data principles. In particular, both dumps and smaller slices are provided. JSON is used as the primary format for outputs of 101modules, but RDF is also supported increasingly.\n\n=== Data from the 101repo ===\n\nA systematic documentation effort is underway for Namespace:Module.\n\nHere are some pointers:\n\n* [http://data.101companies.org/dumps/Wiki101Full.json '''101wiki dump'''] synthesized by Module:wiki2json.\n* [http://data.101companies.org/resources '''per-file resources'''] synthesized by various modules.\n* [http://data.101companies.org/dumps/rules.json 101meta '''rules dump'''] synthesized by Module:rules101meta.\n* [http://data.101companies.org/dumps/matches.json basic '''metadata dump'''] synthesized by Module:matches101meta.\n* [http://data.101companies.org/dumps/predicates.json predicative '''metadata dump'''] synthesized by Module:predicates101meta.\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Metadata": [
+                {
+                    "content": "\n* instanceOf::Namespace:101",
+                    "classifier": "text"
+                }
+            ]
+        },
+        "title": "Concept:101data"
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "sections": {
+            "Headline": [
+                {
+                    "content": "\n\nAn imaginary HRMS system in the 101project\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Description": [
+                {
+                    "content": "\n\nThe 101system (or just \"the system\") is an imaginary ''Human resource management system (HRMS)'' which serves as the \"running example\" in the 101project. That is, \"contributions\" to the project are meant to implement or model or otherwise exercise the system for a conceived ''company'' as a client. \n\nThe system is supposed to model the company structure in terms of employees and possibly the hierarchical structure of departments. Employees are modeled in terms of their names, addresses, salaries, and possibly additional properties.  The system is supposed to meet certain functional requirements such as totaling all salaries in the company. The system may also be subjected to non-functional requirements such as persistence or distribution. All requirements are organized in Namespace:Feature. The features are not collected for the sake of an interesting HRMS system. Instead, the features are designed to exercise interesting characteristics of software languages and software technologies. Most features are optional so that contributions have the freedom of choice to focus on features that are particularly interesting for a certain objective of language or technology demonstration.\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Illustration": [
+                {
+                    "content": "\n\nThe following UML class diagram models the basic structure of the 101system.\n\nmedia:https://github.com/101companies/101repo/raw/master/contributions/argoUML/composition.jpg\n\nSee Theme:Starter for a few very simple contributions in varying languages. These are mostly implementations of the system in varying programming languages, but a UML-based model (as shown above) is also included.\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Metadata": [
+                {
+                    "content": "\n\n* instanceOf::Human resource management system\n* relatesTo::Namespace:Feature\n* instanceOf::Namespace:101\n\n",
+                    "classifier": "text"
+                }
+            ]
+        },
+        "title": "Concept:101system"
+    }
+]

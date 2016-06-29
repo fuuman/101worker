@@ -1,0 +1,25 @@
+[
+    {
+        "sections": {
+            "Headline": [
+                {
+                    "content": "\n\nThe repository of the 101project\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Description": [
+                {
+                    "content": "\n\n101repo is a confederated or virtual repository in that it actually consists of many physical repositories.\nThose contributing repositories may either cover some architectural component of the 101project (such as the 101worker) or individual 101contributions or collections thereof (such as 101haskell or 101simplejava). Especially those repositories with contributions are collected in a [https://github.com/101companies/101repo/blob/master/.gitdeps registry]. Please send an email to 101companies@gmail.com, if you want entries to be added or modified.\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Metadata": [
+                {
+                    "content": "\n\n* linksTo::https://github.com/101companies/101repo/blob/master/.gitdeps\n* instanceOf::Namespace:101\n\n",
+                    "classifier": "text"
+                }
+            ]
+        },
+        "title": "Concept:101repo"
+    }
+]

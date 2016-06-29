@@ -12,6 +12,7 @@ modules = [
     'lookupMaven',
     'matchLanguage',
     'extractFacts',
+    'documentLearning',
     'dumpMongoDBToJson',
     'convertMongoDump',
     'simpleLOC',

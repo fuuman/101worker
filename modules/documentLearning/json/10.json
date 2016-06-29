@@ -1,0 +1,19 @@
+[ 
+ {
+        "sections": {
+            "Headline": [
+                {
+                    "content": " \n\nJava library for zip and gzip file formats\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Metadata": [
+                {
+                    "content": "\n\n* instanceOf::Library\n* instanceOf::Java package\n* identifies::http://docs.oracle.com/javase/7/docs/api/java/util/zip/package-summary.html\n* instanceOf::Namespace:Technology",
+                    "classifier": "text"
+                }
+            ]
+        },
+        "title": "Technology:java.util.zip"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "sections": {
+            "Headline": [
+                {
+                    "content": "\n\nThe web-based exploration service of the 101project\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Description": [
+                {
+                    "content": "\n\n101explorer is an integral part of the infrastructure and foundation of the 101project. 101explorer supports systematic exploration of all pages on the 101wiki, all artifacts in the 101repo, and all synthesized data available as 101data. To this end, 101explorer provides access to the various links between all the involved resources. In other words, 101explorer is the Linked Data portal for the 101project. 101explorer is organized as web service (using HTTP GET) with the URL referring to the resource and the response containing information about the resource. Different response formats are supported: HTML, JSON, and RDF.\n\nThis is entrance page for the service (using HTML):\n\nhttp://101companies.org/resources?format=html\n\nAt the root, exploration starts with the namespace of all namespaces of the 101project. One can select a namespace, further select a member, and possibly drill into members in terms of their structure on the file system of 101repo. One can also drill into files \nin terms of fragments understood by fact extractors and fragment locators. \n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Metadata": [
+                {
+                    "content": "\n* instanceOf::Namespace:101",
+                    "classifier": "text"
+                }
+            ]
+        },
+        "title": "Concept:101explorer"
+    }
+]

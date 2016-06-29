@@ -1,0 +1,25 @@
+[
+    {
+        "sections": {
+            "Headline": [
+                {
+                    "content": "\n\nA contribution to the 101project\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Description": [
+                {
+                    "content": "\n\nA 101contribution is an implementation or a model of the 101system. (Of course, 101contributors may contribute in yet other ways to the 101project.)\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Metadata": [
+                {
+                    "content": "\n\n\n* relatesTo::@contributor\n* instanceOf::Namespace:101\n\n",
+                    "classifier": "text"
+                }
+            ]
+        },
+        "title": "Concept:101contribution"
+    }
+]	

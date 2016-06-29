@@ -1,0 +1,25 @@
+[
+    {
+        "sections": {
+            "Headline": [
+                {
+                    "content": "\n\nThe 101simplejava repository as part of 101repo\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Metadata": [
+                {
+                    "content": "\n* instanceOf::Namespace:101",
+                    "classifier": "text"
+                }
+            ],
+            "Descrciption": [
+                {
+                    "content": "\n\nSee the corresponding repository description: Repository:101simplejava\n\n",
+                    "classifier": "text"
+                }
+            ]
+        },
+        "title": "Concept:101simplejava"
+    }
+]

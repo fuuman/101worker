@@ -1,0 +1,25 @@
+[
+    {
+        "sections": {
+            "Headline": [
+                {
+                    "content": "\n\nA build automation tool\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Metadata": [
+                {
+                    "content": "\n\n* instanceOf::Build tool\n* sameAs::http://en.wikipedia.org/wiki/Make (software)\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Details": [
+                {
+                    "content": "\n\n''make'' is de-facto a name that could refer to different implementations.\n\nOne popular implementation of ''make'' is Technology:GNU make.\n\n",
+                    "classifier": "text"
+                }
+            ]
+        },
+        "title": "Technology:Make"
+    }
+]

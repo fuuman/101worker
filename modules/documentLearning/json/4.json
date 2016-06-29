@@ -1,0 +1,25 @@
+[
+    {
+        "sections": {
+            "Headline": [
+                {
+                    "content": "\n\nThe Haskell-related sub-chrestomathy of the 101project\n",
+                    "classifier": "text"
+                }
+            ],
+            "Metadata": [
+                {
+                    "content": "\n\n* identifies::http://softlang.uni-koblenz.de/101haskell\n* identifies::https://github.com/101companies/101haskell\n* instanceOf::Namespace:101",
+                    "classifier": "text"
+                }
+            ],
+            "Descrciption": [
+                {
+                    "content": "\n\n101haskell, as part of 101companies, collects tiny or small Haskell-based software systems (\"contributions\") designed to serve the didactic purpose of a) presenting Haskell-based solutions to a number of general system requirements as defined by the 101project and b) exercising alternative applicable programming techniques and technologies for the requirements. 101haskell is essentially the Haskell-specific sub-chrestomathy of the 101companies chrestomathy which covers dozens of programming and software languages. It happens that Haskell has played a special role in the 101com- panies project, i.e., Haskell has been used to bootstrap and demonstrate many capabilities of 101, e.g., the use of semantic properties, the use of metamodels and namespaces in content management, and the curation of Wikipedia and textbook links. (To a slighly reduced extent, this is also true for Java.)\n\nAll 101haskell contributions are readily linked to Language:Haskell.\n\nThe contributions are also organized in themes as follows:\n\n* Haskell introduction: Introduction to the Haskell language\n* Haskell data: Data modeling techniques and variations\n* Haskell potpourri: Diverse feature and technology coverage\n* Haskell genericity: Generic functional programming, e.g., with SYB.\n\nThe contributions follow the overall feature model of the 101system.\n\nMost of the contributions are closs-room-tested, e.g., in the Course:Lambdas in Koblenz.\n",
+                    "classifier": "text"
+                }
+            ]
+        },
+        "title": "Concept:101haskell"
+    }
+]

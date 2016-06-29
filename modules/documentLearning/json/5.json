@@ -1,0 +1,25 @@
+[
+    {
+        "sections": {
+            "Headline": [
+                {
+                    "content": "\n\nWhat's the 101project\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Description": [
+                {
+                    "content": "\n\nThe 101companies  Project (or \"101project\" or even just \"101\" for short) is an open knowledge resource covering software technologies, technological spaces, software languages, and software concepts. 101 targets programmers, software engineers, teachers, learners, and technologists; they can leverage 101 and they are encouraged to contribute to 101. The project relies on the aggregation, organization, annotation, and analysis of an open-source corpus of contributions: these are implementations and other manifestations of the 101system, which is an imaginary ''Human Resource Management System'' with various (mostly) optional features. Contributions are maintained in the 101repo and documented on the 101wiki and organized in themes. All available knowledge is processed by the 101worker; derived resources are made available as 101data; all relevant resources are made available as Linked Data explorable through 101explorer.\n\n=== Why the name \"101companies\"? ===\n\nThe \"companies\" postfix in \"101companies\" refers to the kind of system that is built time again in this project: a system that models companies, department structure, employees, salaries, etc. The \"101\" prefix in \"101companies\" refers to the idiom of doing something in \"101 ways\", namely building said system. Actually, there are more than \"101 ways\" of building a human resource management system with different software technologies and software languages.\n\n=== History of the 101project ===\n\n* Apr 2008: Ralf L\u00e4mmel initiates a related course on programming techniques and technologies at the University of Koblenz-Landau.\n* June 2010: Jean-Marie Favre, Dragan Gasevic, and Ralf L\u00e4mmel meet in Malaga to discuss technological spaces and related publication and teaching efforts.\n* Aug 2010: 101repo starts to take shape thanks to Thomas Schmorleiz who enters the 101project for several years to come.\n* Oct 2011: Jean-Marie Favre, Dragan Gasevic, and Ralf L\u00e4mmel present a related tutorial at GPCE/SLE 2010 in Eindhoven.\n* Feb 2011: Andrei Varanovich joins the Software Languages Team to focus his research and developer energy around the project.\n* Mar 2011: Ralf L\u00e4mmel releases 101wiki at AOSD 2011 in Brazil. Many other presentations of the project have followed.\n* Spring 2012: First publication on the project at TOOLS 2012. Other papers have followed at MODELS 2012 and WCRE 2012.\n* Since summer 2012: many 101contributors have implemented the 101system with their preferred languages and technologies and contributed thus to the 101repo.\n* August 2012: The SoTeSoLa summer school leverages the project as part of its design, e.g., for hackathon-like efforts.\n* Winter 2012-Summer 2013: Complete re-design of 101wiki, 101repo, 101worker underway.\n* April 2013: The project is now used in two courses simultaneously at the University of Koblenz-Landau.\n\n<small>All 101companies content and code is subject to the 101license.</small>\n\n<small>[http://www.youtube.com/channel/UCzecm5qz 9KDcxuhgbRDy-w Check out some videos on the YouTube channel of the project.]</small>\n\n",
+                    "classifier": "text"
+                }
+            ],
+            "Metadata": [
+                {
+                    "content": "\n\n* linksTo::http://en.wikipedia.org/wiki/101 (number)\n* instanceOf::Namespace:101\n\n",
+                    "classifier": "text"
+                }
+            ]
+        },
+        "title": "Concept:101project"
+    }
+]
