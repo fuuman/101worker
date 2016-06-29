@@ -1,4 +1,4 @@
-.. image:: http://userpages.uni-koblenz.de/~mschanz/documentLearning.jpg
+.. image:: http://userpages.uni-koblenz.de/~mschanz/ass03.jpg
    :align: center
    :target: https://github.com/fuuman/101worker/tree/master/modules/documentLearning
    :alt: documentLearning Logo
