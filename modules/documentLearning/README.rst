@@ -36,11 +36,15 @@ Probleme traten jedoch dabei auf, die Prediction Models jeweiligen Namespaces zu
 Diese Probleme traten vor allem auf, durch mangelnde Python-Kenntnisse und der gleichzeitig zu erlernenden NLTK Library. Mit mehr Zeit wäre uns wahrscheinlich ein abschließendes Ergebnis gelungen.
 Wir wissen, dass dies unglaubwürdig klingt, jedoch haben wir zeitgemäß vor zwei Wochen mit der Implementation begonnen.
 
-Developers
-----------
+
+
+Developers & contributions
+--------------------------
 - Marco Schanz
 - Diana Richter
 - Marius Beckmann
 - Frank Schaust
 - André-Gilbert Thomas
 - Isabelle Kuhlmann
+
+Der Code ist diesmal in mehreren gemeinsamen Hackathons entstanden. Jeder war anwesend und hat zum Ergebnis beigetragen.
